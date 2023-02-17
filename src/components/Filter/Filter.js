@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import css from './Filter.module.css';
-
 export const Filter = ( {onChange} ) => {
   const changeInput = event => {
     const input = event.currentTarget.value;

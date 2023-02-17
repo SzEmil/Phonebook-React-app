@@ -11,7 +11,6 @@ export const App = () => {
   const prevTab = useRef(contacts);
 
   const addContact = values => {
-    console.log(values);
     const existingContact = contacts.find(
       contact => contact.name === values.name
     );
@@ -25,7 +24,6 @@ export const App = () => {
   };
 
   const showInput = userInput => {
-    console.log(userInput);
     setFilter(userInput);
   };
 
